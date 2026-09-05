@@ -10,7 +10,6 @@ fun bonus(time: Int): Int {
 
 fun main() {
     val time = 10
-    println("The bonus for $time year(s) is %d.".format(bonus(time)))
-
-
+    println("The bonus for $time year(s) is ${bonus(time)}.")
+    println("daniel")
 }
